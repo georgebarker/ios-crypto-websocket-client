@@ -15,6 +15,7 @@
 		D68584B326B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584B226B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift */; };
 		D68584C126B6BF8D007E44E8 /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */; };
 		D68584C726B6CA5C007E44E8 /* Cryptocurrencies.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */; };
+		D68584C926B6D56A007E44E8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D68584C826B6D56A007E44E8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D68584B426B6BD4D007E44E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
 		D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cryptocurrencies.xcassets; sourceTree = "<group>"; };
+		D68584C826B6D56A007E44E8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		D685848926B6BD4B007E44E8 = {
 			isa = PBXGroup;
 			children = (
+				D68584C826B6D56A007E44E8 /* README.md */,
 				D685849426B6BD4B007E44E8 /* ios-crypto-websocket-client */,
 				D68584A626B6BD4D007E44E8 /* ios-crypto-websocket-clientTests */,
 				D68584B126B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests */,
@@ -241,6 +244,7 @@
 			files = (
 				D685849D26B6BD4D007E44E8 /* Preview Assets.xcassets in Resources */,
 				D68584C726B6CA5C007E44E8 /* Cryptocurrencies.xcassets in Resources */,
+				D68584C926B6D56A007E44E8 /* README.md in Resources */,
 				D685849A26B6BD4D007E44E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
