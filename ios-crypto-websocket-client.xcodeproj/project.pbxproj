@@ -13,6 +13,8 @@
 		D685849D26B6BD4D007E44E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685849C26B6BD4D007E44E8 /* Preview Assets.xcassets */; };
 		D68584A826B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584A726B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift */; };
 		D68584B326B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584B226B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift */; };
+		D68584C126B6BF8D007E44E8 /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */; };
+		D68584C726B6CA5C007E44E8 /* Cryptocurrencies.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D68584AE26B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-crypto-websocket-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68584B226B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_crypto_websocket_clientUITests.swift; sourceTree = "<group>"; };
 		D68584B426B6BD4D007E44E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
+		D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cryptocurrencies.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 				D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */,
 				D685849726B6BD4B007E44E8 /* ContentView.swift */,
 				D685849926B6BD4D007E44E8 /* Assets.xcassets */,
+				D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */,
 				D685849E26B6BD4D007E44E8 /* Info.plist */,
 				D685849B26B6BD4D007E44E8 /* Preview Content */,
+				D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */,
 			);
 			path = "ios-crypto-websocket-client";
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D685849D26B6BD4D007E44E8 /* Preview Assets.xcassets in Resources */,
+				D68584C726B6CA5C007E44E8 /* Cryptocurrencies.xcassets in Resources */,
 				D685849A26B6BD4D007E44E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D685849826B6BD4B007E44E8 /* ContentView.swift in Sources */,
+				D68584C126B6BF8D007E44E8 /* Cryptocurrency.swift in Sources */,
 				D685849626B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
