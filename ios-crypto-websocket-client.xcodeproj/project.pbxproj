@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D685849626B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */; };
+		D685849826B6BD4B007E44E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685849726B6BD4B007E44E8 /* ContentView.swift */; };
+		D685849A26B6BD4D007E44E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685849926B6BD4D007E44E8 /* Assets.xcassets */; };
+		D685849D26B6BD4D007E44E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685849C26B6BD4D007E44E8 /* Preview Assets.xcassets */; };
+		D68584A826B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584A726B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift */; };
+		D68584B326B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584B226B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68584A426B6BD4D007E44E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D685848A26B6BD4B007E44E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D685849126B6BD4B007E44E8;
+			remoteInfo = "ios-crypto-websocket-client";
+		};
+		D68584AF26B6BD4D007E44E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D685848A26B6BD4B007E44E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D685849126B6BD4B007E44E8;
+			remoteInfo = "ios-crypto-websocket-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D685849226B6BD4B007E44E8 /* ios-crypto-websocket-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-crypto-websocket-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_crypto_websocket_clientApp.swift; sourceTree = "<group>"; };
+		D685849726B6BD4B007E44E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D685849926B6BD4D007E44E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D685849C26B6BD4D007E44E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D685849E26B6BD4D007E44E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68584A326B6BD4D007E44E8 /* ios-crypto-websocket-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-crypto-websocket-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68584A726B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_crypto_websocket_clientTests.swift; sourceTree = "<group>"; };
+		D68584A926B6BD4D007E44E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68584AE26B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-crypto-websocket-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68584B226B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_crypto_websocket_clientUITests.swift; sourceTree = "<group>"; };
+		D68584B426B6BD4D007E44E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D685848F26B6BD4B007E44E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68584A026B6BD4D007E44E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68584AB26B6BD4D007E44E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D685848926B6BD4B007E44E8 = {
+			isa = PBXGroup;
+			children = (
+				D685849426B6BD4B007E44E8 /* ios-crypto-websocket-client */,
+				D68584A626B6BD4D007E44E8 /* ios-crypto-websocket-clientTests */,
+				D68584B126B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests */,
+				D685849326B6BD4B007E44E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D685849326B6BD4B007E44E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D685849226B6BD4B007E44E8 /* ios-crypto-websocket-client.app */,
+				D68584A326B6BD4D007E44E8 /* ios-crypto-websocket-clientTests.xctest */,
+				D68584AE26B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D685849426B6BD4B007E44E8 /* ios-crypto-websocket-client */ = {
+			isa = PBXGroup;
+			children = (
+				D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */,
+				D685849726B6BD4B007E44E8 /* ContentView.swift */,
+				D685849926B6BD4D007E44E8 /* Assets.xcassets */,
+				D685849E26B6BD4D007E44E8 /* Info.plist */,
+				D685849B26B6BD4D007E44E8 /* Preview Content */,
+			);
+			path = "ios-crypto-websocket-client";
+			sourceTree = "<group>";
+		};
+		D685849B26B6BD4D007E44E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D685849C26B6BD4D007E44E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D68584A626B6BD4D007E44E8 /* ios-crypto-websocket-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68584A726B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift */,
+				D68584A926B6BD4D007E44E8 /* Info.plist */,
+			);
+			path = "ios-crypto-websocket-clientTests";
+			sourceTree = "<group>";
+		};
+		D68584B126B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68584B226B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift */,
+				D68584B426B6BD4D007E44E8 /* Info.plist */,
+			);
+			path = "ios-crypto-websocket-clientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D685849126B6BD4B007E44E8 /* ios-crypto-websocket-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68584B726B6BD4D007E44E8 /* Build configuration list for PBXNativeTarget "ios-crypto-websocket-client" */;
+			buildPhases = (
+				D685848E26B6BD4B007E44E8 /* Sources */,
+				D685848F26B6BD4B007E44E8 /* Frameworks */,
+				D685849026B6BD4B007E44E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-crypto-websocket-client";
+			productName = "ios-crypto-websocket-client";
+			productReference = D685849226B6BD4B007E44E8 /* ios-crypto-websocket-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68584A226B6BD4D007E44E8 /* ios-crypto-websocket-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68584BA26B6BD4D007E44E8 /* Build configuration list for PBXNativeTarget "ios-crypto-websocket-clientTests" */;
+			buildPhases = (
+				D685849F26B6BD4D007E44E8 /* Sources */,
+				D68584A026B6BD4D007E44E8 /* Frameworks */,
+				D68584A126B6BD4D007E44E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68584A526B6BD4D007E44E8 /* PBXTargetDependency */,
+			);
+			name = "ios-crypto-websocket-clientTests";
+			productName = "ios-crypto-websocket-clientTests";
+			productReference = D68584A326B6BD4D007E44E8 /* ios-crypto-websocket-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68584AD26B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68584BD26B6BD4D007E44E8 /* Build configuration list for PBXNativeTarget "ios-crypto-websocket-clientUITests" */;
+			buildPhases = (
+				D68584AA26B6BD4D007E44E8 /* Sources */,
+				D68584AB26B6BD4D007E44E8 /* Frameworks */,
+				D68584AC26B6BD4D007E44E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68584B026B6BD4D007E44E8 /* PBXTargetDependency */,
+			);
+			name = "ios-crypto-websocket-clientUITests";
+			productName = "ios-crypto-websocket-clientUITests";
+			productReference = D68584AE26B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D685848A26B6BD4B007E44E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D685849126B6BD4B007E44E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D68584A226B6BD4D007E44E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D685849126B6BD4B007E44E8;
+					};
+					D68584AD26B6BD4D007E44E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D685849126B6BD4B007E44E8;
+					};
+				};
+			};
+			buildConfigurationList = D685848D26B6BD4B007E44E8 /* Build configuration list for PBXProject "ios-crypto-websocket-client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D685848926B6BD4B007E44E8;
+			productRefGroup = D685849326B6BD4B007E44E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D685849126B6BD4B007E44E8 /* ios-crypto-websocket-client */,
+				D68584A226B6BD4D007E44E8 /* ios-crypto-websocket-clientTests */,
+				D68584AD26B6BD4D007E44E8 /* ios-crypto-websocket-clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D685849026B6BD4B007E44E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D685849D26B6BD4D007E44E8 /* Preview Assets.xcassets in Resources */,
+				D685849A26B6BD4D007E44E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68584A126B6BD4D007E44E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68584AC26B6BD4D007E44E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D685848E26B6BD4B007E44E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D685849826B6BD4B007E44E8 /* ContentView.swift in Sources */,
+				D685849626B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D685849F26B6BD4D007E44E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68584A826B6BD4D007E44E8 /* ios_crypto_websocket_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68584AA26B6BD4D007E44E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68584B326B6BD4D007E44E8 /* ios_crypto_websocket_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68584A526B6BD4D007E44E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D685849126B6BD4B007E44E8 /* ios-crypto-websocket-client */;
+			targetProxy = D68584A426B6BD4D007E44E8 /* PBXContainerItemProxy */;
+		};
+		D68584B026B6BD4D007E44E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D685849126B6BD4B007E44E8 /* ios-crypto-websocket-client */;
+			targetProxy = D68584AF26B6BD4D007E44E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D68584B526B6BD4D007E44E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D68584B626B6BD4D007E44E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68584B826B6BD4D007E44E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-crypto-websocket-client/Preview Content\"";
+				DEVELOPMENT_TEAM = HD92BD89F3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ios-crypto-websocket-client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.georgebarker.ios-crypto-websocket-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D68584B926B6BD4D007E44E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-crypto-websocket-client/Preview Content\"";
+				DEVELOPMENT_TEAM = HD92BD89F3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ios-crypto-websocket-client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.georgebarker.ios-crypto-websocket-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D68584BB26B6BD4D007E44E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD92BD89F3;
+				INFOPLIST_FILE = "ios-crypto-websocket-clientTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.georgebarker.ios-crypto-websocket-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-crypto-websocket-client.app/ios-crypto-websocket-client";
+			};
+			name = Debug;
+		};
+		D68584BC26B6BD4D007E44E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD92BD89F3;
+				INFOPLIST_FILE = "ios-crypto-websocket-clientTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.georgebarker.ios-crypto-websocket-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-crypto-websocket-client.app/ios-crypto-websocket-client";
+			};
+			name = Release;
+		};
+		D68584BE26B6BD4D007E44E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD92BD89F3;
+				INFOPLIST_FILE = "ios-crypto-websocket-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.georgebarker.ios-crypto-websocket-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-crypto-websocket-client";
+			};
+			name = Debug;
+		};
+		D68584BF26B6BD4D007E44E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD92BD89F3;
+				INFOPLIST_FILE = "ios-crypto-websocket-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.georgebarker.ios-crypto-websocket-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-crypto-websocket-client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D685848D26B6BD4B007E44E8 /* Build configuration list for PBXProject "ios-crypto-websocket-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68584B526B6BD4D007E44E8 /* Debug */,
+				D68584B626B6BD4D007E44E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68584B726B6BD4D007E44E8 /* Build configuration list for PBXNativeTarget "ios-crypto-websocket-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68584B826B6BD4D007E44E8 /* Debug */,
+				D68584B926B6BD4D007E44E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68584BA26B6BD4D007E44E8 /* Build configuration list for PBXNativeTarget "ios-crypto-websocket-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68584BB26B6BD4D007E44E8 /* Debug */,
+				D68584BC26B6BD4D007E44E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68584BD26B6BD4D007E44E8 /* Build configuration list for PBXNativeTarget "ios-crypto-websocket-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68584BE26B6BD4D007E44E8 /* Debug */,
+				D68584BF26B6BD4D007E44E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D685848A26B6BD4B007E44E8 /* Project object */;
+}
