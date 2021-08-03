@@ -13,6 +13,7 @@ A work-in-progress sample iOS app using WebSockets to provide live prices for cr
 - [ ] List search (Swipe down to reveal search, like in the iOS settings app)
 - [ ] Filtering and sorting
 - [ ] Last updated timestamp
+- [ ] Use the WebSocket server over wss (WebSocket Secure) and remove the exception for non-secure on localhost in Info.plist
 
 ## Screenshots
 ### List view with test data
