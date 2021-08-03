@@ -14,10 +14,6 @@ A work-in-progress sample iOS app using WebSockets to provide live prices for cr
 - [ ] Filtering and sorting
 - [ ] Last updated timestamp
 
-
-# Things to improve
-
-
 ## Screenshots
 ### List view with test data
 ![List view with test data](screenshots/ListViewScreenshot.png)
