@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D685849626B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */; };
+		D685849626B6BD4B007E44E8 /* CryptoWebSocketClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685849526B6BD4B007E44E8 /* CryptoWebSocketClientApp.swift */; };
 		D685849826B6BD4B007E44E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685849726B6BD4B007E44E8 /* ContentView.swift */; };
 		D685849A26B6BD4D007E44E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685849926B6BD4D007E44E8 /* Assets.xcassets */; };
 		D685849D26B6BD4D007E44E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685849C26B6BD4D007E44E8 /* Preview Assets.xcassets */; };
@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		D685849226B6BD4B007E44E8 /* ios-crypto-websocket-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-crypto-websocket-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_crypto_websocket_clientApp.swift; sourceTree = "<group>"; };
+		D685849526B6BD4B007E44E8 /* CryptoWebSocketClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWebSocketClientApp.swift; sourceTree = "<group>"; };
 		D685849726B6BD4B007E44E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D685849926B6BD4D007E44E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D685849C26B6BD4D007E44E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		D685849426B6BD4B007E44E8 /* ios-crypto-websocket-client */ = {
 			isa = PBXGroup;
 			children = (
-				D685849526B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift */,
+				D685849526B6BD4B007E44E8 /* CryptoWebSocketClientApp.swift */,
 				D685849726B6BD4B007E44E8 /* ContentView.swift */,
 				D685849926B6BD4D007E44E8 /* Assets.xcassets */,
 				D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */,
@@ -272,7 +272,7 @@
 			files = (
 				D685849826B6BD4B007E44E8 /* ContentView.swift in Sources */,
 				D68584C126B6BF8D007E44E8 /* Cryptocurrency.swift in Sources */,
-				D685849626B6BD4B007E44E8 /* ios_crypto_websocket_clientApp.swift in Sources */,
+				D685849626B6BD4B007E44E8 /* CryptoWebSocketClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

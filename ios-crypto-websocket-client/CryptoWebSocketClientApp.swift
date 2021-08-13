@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ios_crypto_websocket_clientApp: App {
+struct CryptoWebSocketClientApp: App {
     init() {
         setupWebSocket()
     }
@@ -19,13 +19,11 @@ struct ios_crypto_websocket_clientApp: App {
     }
 }
 
-private extension ios_crypto_websocket_clientApp {
+private extension CryptoWebSocketClientApp {
     func setupWebSocket() {
-        let urlSession = URLSession(configuration: .default)
-        let url = URL(string: "ws://localhost:8081/crypto-websocket-server/cryptocurrencies")
-        let webSocketTask = urlSession.webSocketTask(with: url!)
+        let webSocketTask = URLSession(configuration: .default)
+            .webSocketTask(with: URL(string: "ws://localhost:8081/crypto-websocket-server/cryptocurrencies")!)
         
-
         webSocketTask.resume()
         receiveOnWebSocket(with: webSocketTask)
     }
