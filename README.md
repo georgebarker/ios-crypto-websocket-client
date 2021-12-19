@@ -4,8 +4,9 @@ A work-in-progress sample iOS app using WebSockets to provide live prices for cr
 
 ## To do list
 - [X] Create list view with test data
-- [ ] Hook up to WebSocket API
+- [X] Hook up to WebSocket API
 - [ ] Format for the correct tick size ($250.5 -> $250.50), requires tick size from the API because there are cryptocurrencies with a tick size > 2
+- [ ] Use the data from the WebSocket API to populate the list
 - [ ] Create detailed view with test data
 - [ ] Loading list on first time behaviour
 - [ ] Reloading list behaviour (swipe down to reload, loading indicator)

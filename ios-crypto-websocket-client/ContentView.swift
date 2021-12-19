@@ -23,7 +23,7 @@ struct ContentView: View {
                     Spacer()
                 }
             }.navigationTitle("Cryptocurrencies")
-        }
+        }.onAppear(perform: Api().setupWebSocket)
 
     }
 }

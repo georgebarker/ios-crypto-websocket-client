@@ -16,6 +16,7 @@
 		D68584C126B6BF8D007E44E8 /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */; };
 		D68584C726B6CA5C007E44E8 /* Cryptocurrencies.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */; };
 		D68584C926B6D56A007E44E8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D68584C826B6D56A007E44E8 /* README.md */; };
+		D6C0A2C9276FBDA300AC37CE /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0A2C8276FBDA300AC37CE /* Api.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
 		D68584C626B6CA5C007E44E8 /* Cryptocurrencies.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cryptocurrencies.xcassets; sourceTree = "<group>"; };
 		D68584C826B6D56A007E44E8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D6C0A2C8276FBDA300AC37CE /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				D685849E26B6BD4D007E44E8 /* Info.plist */,
 				D685849B26B6BD4D007E44E8 /* Preview Content */,
 				D68584C026B6BF8D007E44E8 /* Cryptocurrency.swift */,
+				D6C0A2C8276FBDA300AC37CE /* Api.swift */,
 			);
 			path = "ios-crypto-websocket-client";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				D685849826B6BD4B007E44E8 /* ContentView.swift in Sources */,
 				D68584C126B6BF8D007E44E8 /* Cryptocurrency.swift in Sources */,
+				D6C0A2C9276FBDA300AC37CE /* Api.swift in Sources */,
 				D685849626B6BD4B007E44E8 /* CryptoWebSocketClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
