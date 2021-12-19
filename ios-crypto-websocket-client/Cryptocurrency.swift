@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Cryptocurrency: Identifiable {
-    var id = UUID()
+struct Cryptocurrency: Codable, Identifiable {
+    var id: UUID? = UUID()
     var name: String
     var bid: Decimal
     var ask: Decimal

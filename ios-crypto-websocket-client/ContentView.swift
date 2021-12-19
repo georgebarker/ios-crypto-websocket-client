@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var cryptocurrencies: [Cryptocurrency] = []
+    @State var cryptocurrencies: [Cryptocurrency] = []
     
     var body: some View {
         NavigationView {
@@ -23,9 +23,14 @@ struct ContentView: View {
                     Spacer()
                 }
             }.navigationTitle("Cryptocurrencies")
-        }.onAppear(perform: Api().setupWebSocket)
-
+        }.onAppear {
+            Api().setupWebSocket { (cryptocurrencies) in
+                self.cryptocurrencies = cryptocurrencies
+            }
+        }
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
